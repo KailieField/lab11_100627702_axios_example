@@ -1,9 +1,9 @@
 .user-list {
     gap: 15px;
-    background-color: #2498a0;
     border: 3px solid rgb(162, 227, 238);
     padding: 20px;
     min-height: 100vh;
+    background-color: #2498a0;
 }
 
 .header {
@@ -20,13 +20,14 @@
 }
 
 .user-details {
-    background-color: #0e4d5c;
     border: 3px solid rgb(1, 27, 32);
     color: white;
     margin: 5px 0;
     padding: 20px;
     border-radius: 10px;
+    background-color: #0e4d5c;
     box-shadow: 10 6px 9px rgba(2, 52, 62, 0.35);
+    
 }
 
 .user-header {
@@ -34,28 +35,28 @@
     display: flex;
     color:aliceblue;
     margin: 20px 3;
-    padding: 20px;
-    background-color: #0e4d5c;
     border: 3px solid rgb(5, 17, 19);
+    padding: 20px;
     align-items: center;
     border-radius: 10px;
     margin-bottom: 10px;
+    background-color: #0e4d5c;
 }
 
 .user-picture {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
     border: 3px solid rgb(21, 103, 118);
+    border-radius: 50%;
     box-shadow: 10 6px 9px rgba(229, 238, 239, 0.769);
 }
 
 .more-btn {
-    background-color: #70f2f0;
     color: rgb(11, 3, 3);
-    border-color: #7491a0;
     padding: 10px 20px;
-    border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+    border-color: #7491a0;
+    border-radius: 5px;
+    background-color: #70f2f0;
 }
